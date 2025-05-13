@@ -16,6 +16,13 @@ img {margin-bottom: -8px;}
 </head>
 <body class="w3-content w3-black" style="max-width:1500px;">
 
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "62a6cf1b-cbf3-489e-9c7f-394bb8931294",
+        apiHost: "http://localhost:3000",
+    })
+</script>
   
 <!-- Header with Slideshow -->
 <header class="w3-display-container w3-center">
